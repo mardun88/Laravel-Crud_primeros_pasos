@@ -104,6 +104,8 @@ class PostController extends Controller
         {
             $data['image'] = $filename = time().".".$data['image']->extension();
 
+            // dd($data);
+
             $request->image->move(public_path('image'), $filename);
         }
         
