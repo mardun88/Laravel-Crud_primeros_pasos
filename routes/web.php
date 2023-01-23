@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Dashboard\CategoryController;
 use App\Http\Controllers\Dashboard\PostController;
 use Illuminate\Support\Facades\Route;
 
@@ -31,3 +32,7 @@ Route::get('edit', [PostController::class, 'edit']);
 //Route::post('post', [PostController::class, 'store']);
 Route::put('update', [PostController::class, 'update']);
 Route::delete('destroy', [PostController::class, 'destroy']);
+
+//Rutas de Categir
+Route:: resource('category', CategoryController::class);
+// Route::get('category', [CategoryController::class, 'index']);
