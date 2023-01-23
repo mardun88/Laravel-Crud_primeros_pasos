@@ -33,7 +33,7 @@
                     <button type="submit">Eliminar</button>
                 </form>
             </td>
-            
+                {{-- FLORECILLA --}}
         </tr>
         @endforeach
     </tbody>
