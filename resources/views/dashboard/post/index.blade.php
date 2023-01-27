@@ -10,7 +10,7 @@
             <th>Titulo</th>
             <th>Categoria</th>
             <th>Postedo</th>
-            <th>Actiones</th>
+            <th>Acciones</th>
         </tr>
     </thead>
     <tbody>
